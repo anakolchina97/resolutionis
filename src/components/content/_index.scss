@@ -1,0 +1,15 @@
+.content {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    font-size: 5vw;
+    @media (max-width: 576px) {
+      font-size: 9vw;
+    }
+  }
+}
